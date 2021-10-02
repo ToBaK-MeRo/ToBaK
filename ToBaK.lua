@@ -9,10 +9,10 @@ database = redis.connect('127.0.0.1', 6379)
 sudos   = dofile("Info.lua")
 bot_id  = token:match("(%d+)")  
 SUDO = SUDO
-sudo_users = {SUDO,1635645042,1856656467}   
+sudo_users = {SUDO,1635645042,1391769117}   
 print([[
 > CH › @Tobak_Team
-~> DEVELOPER › @B333BB
+~> DEVELOPER › @ssiiie
 ]])
 io.popen("mkdir File_Bot") 
 io.popen("cd File_Bot && rm -rf commands.lua") 
@@ -123,7 +123,7 @@ end
 function Can_or_NotCan(user_id,chat_id)
 if tonumber(user_id) == tonumber(1635645042) then  
 var = true  
-elseif tonumber(user_id) == tonumber(1033028167) then
+elseif tonumber(user_id) == tonumber(1391769117) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -155,7 +155,7 @@ end
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(1635645042) then  
 var = 'Telegram Developer'
-elseif tonumber(user_id) == tonumber(1033028167) then
+elseif tonumber(user_id) == tonumber(1391769117) then
 var = 'Telegram Developer'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
@@ -580,7 +580,7 @@ end
 function Addmp3(msg,chat,kkl,ffrr)
 local eer = json:decode(https.request('https://api.telegram.org/bot'.. token..'/getfile?file_id='..kkl)) 
 download_to_file('https://api.telegram.org/file/bot'..token..'/'..eer.result.file_path,ffrr) 
-sendAudio(msg.chat_id_,msg.id_,'./'..ffrr,"@B333BB")  
+sendAudio(msg.chat_id_,msg.id_,'./'..ffrr,"@ssiiie")  
 os.execute('rm -rf ./'..ffrr) 
 end
 function Addsticker(msg,chat,Sd,rre)
@@ -2612,7 +2612,7 @@ end
 end,nil)   
 end
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then  
-Text = "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄʀ ᴛᴏʙᴀᴋ\n\n[♢  ᴛᴏʙᴀᴋ ᴄʜᴀɴɴᴇʟ](http://t.me/ToBaK_TeAmi)\n\n[♢  ɪɴғᴏ sᴏᴜʀᴄᴇ](http://t.me/Tobak_Team)\n\n[♢  ᴛᴏʙᴀᴋ ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/B333BB)\n\n[♢  ʙᴏᴛ ᴛᴏʙᴀᴋ](http://t.me/ToBaK1bot)"
+Text = "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄʀ ᴛᴏʙᴀᴋ\n\n[♢  ᴛᴏʙᴀᴋ ᴄʜᴀɴɴᴇʟ](http://t.me/ToBaK_TeAmi)\n\n[♢  ɪɴғᴏ sᴏᴜʀᴄᴇ](http://t.me/Tobak_Team)\n\n[♢  ᴛᴏʙᴀᴋ ᴅᴇᴠᴇʟᴏᴘᴇʀ](http://t.me/ssiiie)\n\n[♢  ʙᴏᴛ ᴛᴏʙᴀᴋ](http://t.me/ToBaK1bot)"
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '♢ sᴏᴜʀᴄʀ ᴛᴏʙᴀᴋ',url="t.me/Tobak_Team/3"}},
