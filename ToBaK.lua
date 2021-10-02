@@ -169,7 +169,7 @@ if tonumber(user_id) == tonumber(1635645042) then
 var = 'Telegram Developer'
 elseif tonumber(user_id) == tonumber(1391769117) then
 var = 'Telegram Developer'
-elseif tonumber(user_id) == tonumber(1391769117) then
+elseif tonumber(user_id) == tonumber(1470367089) then
 var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
