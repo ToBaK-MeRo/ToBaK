@@ -9791,6 +9791,7 @@ DeleteMessage(msg.chat_id_, {[0] = v})
 end
 send(msg.chat_id_, msg.id_,"♢︙تم مسح الميديا بنجاح")
 end
+if text == "غنيلي" and not 
 DevAli:get(David..'Ali:Audios:Ali'..msg.chat_id_) and SourceCh(msg) then
 Ali = math.random(4,2824);
 local Text ='*♢︙تم اختيار المقطع الصوتي لك*'
